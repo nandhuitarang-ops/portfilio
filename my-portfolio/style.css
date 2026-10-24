@@ -1,0 +1,94 @@
+ * {
+ box-sizing: border-box
+ }
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(225, 225, 236);
+    color: rgb(17, 17, 17);
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.header{
+    background-color: rgb(246, 243, 243);
+    color: rgb(9, 9, 9);
+    text-align: center;
+   
+}
+
+.header h1{
+    font-size: 4em;
+    margin: 0.5em 0;
+    
+}
+
+
+.header p{
+    color: rgb(11, 11, 11);
+    text-align: center;
+}
+
+.skills{
+    background-color: rgb(246, 243, 243);
+    color: rgb(9, 9, 9);
+    text-align: center;
+   
+}
+
+.skills h2{
+    font-size: 3em;
+    margin: 0.5em 0;
+    
+}
+
+
+.skills p{
+    color: rgb(9, 8, 8);
+    text-align: center;
+}
+
+
+.about{
+    background-color: rgb(246, 243, 243);
+    color: rgb(9, 9, 9);
+    text-align: center;
+   
+}
+
+.about h2{
+    font-size: 3em;
+    margin: 0.5em 0;
+    
+}
+
+
+.about p{
+    color: rgb(9, 8, 8);
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(246, 243, 243);
+    color: rgb(9, 9, 9);
+    text-align: center;
+   
+}
+
+.footer h2{
+    font-size: 3em;
+    margin: 0.5em 0;
+    
+}
+
+
+.contact h2{
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.tagline {
+    color: rgb(238, 9, 9);
+}
