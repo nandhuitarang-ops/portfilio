@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      
+      div {
+        width: 200px;
+        height: 300px;
+        border: 2px solid red;
+        flex-grow: 100;
+        padding-left: 40px;
+      }
+
+      section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        gap: 10px;
+        box-sizing: border-box;
+      }
+      .outer-box {
+        width: 200px;
+        height: 300px;
+        border: 2px solid red;
+        box-sizing: border-box;
+    } 
+
+       .inner-box {
+        width: 245px;
+        height: 250px;
+        border: 2px solid blue;
+        padding-left: 100px;
+       }
+
+       .inner-box1 {
+        width: 130px;
+        height: 200px;
+        border: 2px solid brown;
+       }
+    </style>
+  </head>
+  <body>
+    <section>
+      <!-- Childrens -->
+      <div class="outer-box">This is box 1
+        <div class="inner-box">inner-box</div>
+      </div>
+      <div class="outer-box">This is box 2
+        <div class="inner-box">inner-box2
+            <div class="inner-box1">inner box3</div>
+        </div>
+        
+      </div>
+
+      <div class="outer-box">This is box3
+        <div class="inner-box">inner-box 3</div>
+      </div>
+    </section>
+  </body>
+</html>

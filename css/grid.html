@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      header {
+        background: rgb(49, 109, 199);
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      nav {
+        background: orange;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      section {
+        background: purple;
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+      aside {
+        background: green;
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+      article {
+        background: rgb(228, 58, 151);
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+      footer {
+        background: gray;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 30px 30px 60px 60px 30px;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Grid Properties -->
+
+    <!-- Parent -->
+    <!-- Display: grid -->
+    <!-- grid-template-columns -->
+    <!-- grid-template-rows -->
+    <!-- gap -->
+
+    <!-- Child Properties -->
+    <!-- Grid-column-start -->
+    <!-- Grid-column-end -->
+    <!-- Grid-row-start -->
+    <!-- Grid-row-end -->
+
+    <!-- Parent -->
+    <main>
+      <!-- Childs -->
+      <header>Header</header>
+      <nav>Nav</nav>
+      <section>Section</section>
+      <aside>Aside</aside>
+      <article>Article</article>
+      <footer>Footer</footer>
+    </main>
+  </body>
+</html>
