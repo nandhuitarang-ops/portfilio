@@ -1,0 +1,43 @@
+body{
+background-color: aliceblue;
+text-align: center;
+
+}
+
+.intro{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+    margin-top: 50px;
+}
+
+.header-content h1{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-content nav a{
+    color: rgb(0, 255, 8);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.intro span {
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.clickable button {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
